@@ -2,8 +2,8 @@
 %define oname PySDL2
 
 Name:           python-%{module}
-Version:        0.9.5
-Release:        3%{dist}
+Version:        0.9.6
+Release:        1%{dist}
 Summary:        Python 2.x SDL2 bindings
 License:        Public Domain or CC0
 Group:          Development/Python
@@ -65,6 +65,9 @@ popd
 
 
 %changelog
+
+* Thu Nov 02 2017 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 0.9.6-1
+- Updated to 0.9.6
 
 * Sat Sep 02 2017 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 0.9.5-3
 - Upstream
