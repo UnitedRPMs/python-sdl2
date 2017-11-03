@@ -8,7 +8,7 @@ Summary:        Python 2.x SDL2 bindings
 License:        Public Domain or CC0
 Group:          Development/Python
 URL:            https://bitbucket.org/marcusva/py-sdl2
-Source0:        https://bitbucket.org/marcusva/py-sdl2/downloads/%{oname}-%{version}.tar.gz
+Source0:        https://github.com/marcusva/py-sdl2/archive/rel_0_9_6.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python2-devel
@@ -33,7 +33,7 @@ discontinued PySDL project. In contrast to PySDL, it has no licensing
 restrictions, nor does it rely on C code, but uses ctypes instead.
 
 %prep
-%autosetup -n %{oname}-%{version}
+%autosetup -n py-sdl2-rel_0_9_6
 
 cp -a . %{py3dir}
 
