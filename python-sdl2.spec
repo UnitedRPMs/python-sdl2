@@ -52,13 +52,13 @@ pushd %{py3dir}
 popd
 
 %files
-%doc README.txt doc/html/*.html
+%doc README.rst 
 %license doc/copying.rst
 %{python2_sitelib}/%{oname}-%{version}-py%{python2_version}.egg-info
 %{python2_sitelib}/%{module}/
 
 %files -n python3-%{module}
-%doc README.txt doc/html/*.html
+%doc README.rst
 %license doc/copying.rst
 %{python3_sitelib}/%{oname}-%{version}-py%{python3_version}.egg-info
 %{python3_sitelib}/%{module}/
