@@ -3,7 +3,7 @@
 
 Name:           python-%{module}
 Version:        0.9.6
-Release:        1%{dist}
+Release:        2%{dist}
 Summary:        Python 2.x SDL2 bindings
 License:        Public Domain or CC0
 Group:          Development/Python
@@ -66,6 +66,9 @@ popd
 
 %changelog
 
+* Mon Sep 03 2018 Unitedrpms Project <unitedrpms AT protonmail DOT com> 0.9.6-2  
+- Automatic Mass Rebuild
+
 * Thu Nov 02 2017 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 0.9.6-1
 - Updated to 0.9.6
 
@@ -81,4 +84,3 @@ popd
 * Sat Jan 21 2017 akien <akien> 0.9.5-1.mga6
 + Revision: 1082553
 - imported package python-sdl2
-
